@@ -53,6 +53,7 @@ ul{
     font-weight: 300;
     position:sticky;
     top:0;
+    padding-left: 0;
     background-color: white;
 }
 
