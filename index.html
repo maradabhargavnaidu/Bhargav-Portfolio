@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhargav - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
     <script src="https://kit.fontawesome.com/e2720add5b.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -13,7 +14,7 @@
 <body>
     <div class="container">
         <!-- nav-bar -->
-        <div class="nav-bar">
+        <div class="nav-bar display-desktop">
             <ul>
                 <h2 style="color:#F55050">Bhargav</h2>
                 <li><a href="">Home</a></li>
@@ -22,6 +23,19 @@
                 <li><a href="/#projects">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+        </div>
+        <div class="display-mobile">
+            <h2 style="color:#F55050">Bhargav</h2>
+            <i class="fa fa-bars hamburger" aria-hidden="true"></i>
+            <div class="toggle">
+                <ul class="list js-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#skills">Skills</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
         <!-- Introduction -->
         <section class="main-content">
@@ -43,7 +57,7 @@
             <h1 class="center">About</h1>
             <div class="content-container">
                 <div class="pic">
-                    <img src="portfolio-pic-removebg.png" alt="pic" width="200px" height="400px" >
+                    <img src="/images/portfolio-pic-removebg.png" alt="pic" width="200px" height="400px" >
                 </div>
                 <div>
                     <h1 class="center font">My Name is <span style="color:#F55050">Bhargav</span></h1>
@@ -56,12 +70,12 @@
             <h1 class="center">Skills</h1>
             <div class="content-container">
                 <div class="tech-skills">
-                    <h3 class="item">HTML5<img src="HTML5.png" alt="html"width="40px" height="40px"></h3>
-                    <h3 class="item">CSS3<img src="CSS.jpg" alt="css" width="40px" height="40px"></h3>
-                    <h3 class="item">JAVASCRIPT<img src="js.png" alt="js" width="40px" height="40px"></h3>
-                    <h3 class="item">REACT JS<img src="React.webp" alt="react" width="55px" height="40px"></h3>
-                    <h3 class="item">NODE JS<img src="node.png" alt="node" width="30px" height="30px"></h3>
-                    <h3 class="item">MONGODB<img src="mongo.webp" alt="js" width="60px" height="60px"></h3>
+                    <h3 class="item">HTML5<img src="/images/HTML5.png" alt="html"width="40px" height="40px"></h3>
+                    <h3 class="item">CSS3<img src="/images/CSS.jpg" alt="css" width="40px" height="40px"></h3>
+                    <h3 class="item">JAVASCRIPT<img src="/images/js.png" alt="js" width="40px" height="40px"></h3>
+                    <h3 class="item">REACT JS<img src="/images/React.webp" alt="react" width="55px" height="40px"></h3>
+                    <h3 class="item">NODE JS<img src="/images/node.png" alt="node" width="30px" height="30px"></h3>
+                    <h3 class="item">MONGODB<img src="/images/mongo.webp" alt="js" width="60px" height="60px"></h3>
                 </div>
             </div>
         </div>
@@ -71,5 +85,6 @@
         <h1 class="center">Projects</h1>
     </section>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/index.js"></script>
 </body>
 </html>
