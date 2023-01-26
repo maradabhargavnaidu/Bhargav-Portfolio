@@ -1,13 +1,18 @@
 @media screen and (max-width:768px) {
+    *{
+        margin:0;
+        padding:0;
+    }
     .container{
         max-width: 100%;
         width:750px;
         margin:auto;
     }
     .display-mobile{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
+        display:block;
+        position:sticky;
+        top:0;
+        background-color:white;
     }
     .display-desktop{
         display:none;
@@ -18,18 +23,41 @@
     }
     .list a{
         text-decoration: none;
-        color:white;
+        color:black;
     }
     .hamburger{
         display:block;
     }
     .list{
-        background-color:black;
+        background-color:white;
         display:flex;
         flex-direction: column;
-        position:absolute;
+        justify-content: space-around;
+        position:fixed;
         z-index: 100;
-        top:0;
+        top:35px;
         right:0;
+        height:100%;
+        width:80vw;
+    }
+    .nav-fix{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-fix h1{
+        margin-left:0;
+    }
+    
+    .block{
+        display:block;
+    }
+}
+
+@media  screen and (max-width:639px) {
+    .container{
+        max-width: 100%;
+        width:600px;
+        margin:auto;
     }
 }

@@ -8,8 +8,7 @@
     color:black;
     /* color:#03001C; */
 }
-
-.hamburger{
+.toggle{
     display:none;
 }
 
@@ -58,6 +57,13 @@ ul{
 
 .nav-bar a{
     text-decoration: none;
+}
+
+.nav-f{
+    position:fixed;
+    background-color:white;
+    width:100%;
+    top:0;
 }
 
 .nav-bar a:hover{
