@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=PT+Sans+Narrow&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
+
 
 *{
     margin:0;
     padding:0;
     /* background-color:#181818;#03001c */
     /* background-color:white; */
-    color:black;
+    color:black
     /* color:#03001C; */
 }
 .toggle{
@@ -48,8 +49,8 @@ ul{
 
 .nav-bar{
     padding:10px 0;
-    font-family: 'Cormorant Garamond', serif;
     font-family: 'Teko', sans-serif;
+    font-weight: 300;
     position:sticky;
     top:0;
     background-color: white;
@@ -73,10 +74,8 @@ ul{
 
 .intro{
     margin-top: 20%;
-    /* font-family: 'Cormorant Garamond', serif; */
-    /* font-family: 'Teko', sans-serif; */
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
 }
 
 .about{
@@ -107,8 +106,8 @@ ul{
 
 .center{
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
     font-family: 'Teko', sans-serif;
+    font-weight: 300;
 }
 
 .font{
