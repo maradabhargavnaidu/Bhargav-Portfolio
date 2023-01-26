@@ -7,15 +7,15 @@
     <title>Bhargav - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="res.css">
-    <script src="https://kit.fontawesome.com/e2720add5b.js" crossorigin="anonymous"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="container">
         <!-- nav-bar -->
-        <div class="nav-bar display-desktop">
-            <ul>
+        <div class="nav-bar">
+            <ul class="display-desktop">
                 <h2 style="color:#F55050">Bhargav</h2>
                 <li><a href="">Home</a></li>
                 <li><a href="/#about">About</a></li>
@@ -24,18 +24,18 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="display-mobile">
-            <h2 style="color:#F55050">Bhargav</h2>
-            <i class="fa fa-bars hamburger" aria-hidden="true"></i>
-            <div class="toggle">
-                <ul class="list js-list">
+        <div class="">
+            <div class="nav list">
+                <ul class="display-mobile" id="list">
+                    <h2 style="color:#F55050">Bhargav</h2>
+                    <i class="fa fa-bars hamburger" aria-hidden="true"></i>
                     <li><a href="/">Home</a></li>
                     <li><a href="/#about">About</a></li>
                     <li><a href="/#skills">Skills</a></li>
                     <li><a href="/#projects">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/#contacts">Contact</a></li>
                 </ul>
-            </div>
+            </div>  
         </div>
         <!-- Introduction -->
         <section class="main-content">
@@ -47,9 +47,9 @@
                 <a href="#" style="color:#F55050">Download CV&nbsp;<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
             </div>
             <div class="about">
-                <i class="fa fa-github" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <a href="https://github.com/BhArgAvNaiD"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/bhargav-naidu"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://instagram.com/maradabhargavnaidu?igshid=YzgyMTM2MGM="><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
         </section>
         <!-- About -->
@@ -80,11 +80,31 @@
             </div>
         </div>
     </section>
-    <!-- Projects -->
-    <section class="project-content" id="projects">
-        <h1 class="center">Projects</h1>
+    <!-- Contacts -->
+    <section class="contact-content" id="contacts">
+        <h1 class="center">Contact</h1>
+        <form action="https://formspree.io/f/xyyakylo" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label center">Name:</label>
+                <input type="text" class="form-control center" id="name" placeholder="Enter Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label center">Email address:</label>
+                <input type="email" class="form-control center" id="email" placeholder="name@example.com" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label center">Say:</label>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1 center" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </section>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/e2720add5b.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
     <script src="/index.js"></script>
 </body>
 </html>

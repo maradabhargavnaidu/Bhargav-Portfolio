@@ -9,6 +9,10 @@
     /* color:#03001C; */
 }
 
+.hamburger{
+    display:none;
+}
+
 .about{
     display:flex;
     flex-direction: column;
@@ -105,8 +109,6 @@ ul{
     font-size: 20px;
 }
 
-
-
 .content-container{
     display:flex;
     justify-content: space-between;
@@ -125,7 +127,7 @@ ul{
     margin-top:20%;
 }
 
-.project-content{
+.contact-content{
     margin-top:20%;
 }
 
