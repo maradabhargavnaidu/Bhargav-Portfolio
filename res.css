@@ -52,6 +52,10 @@
     .block{
         display:block;
     }
+    .contact-item{
+        font-size: 28px;
+    }
+    
 }
 
 @media  screen and (max-width:639px) {
