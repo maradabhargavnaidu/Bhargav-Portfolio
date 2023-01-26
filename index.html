@@ -6,50 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhargav - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e2720add5b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
+        <!-- nav-bar -->
         <div class="nav-bar">
             <ul>
                 <h2 style="color:#F55050">Bhargav</h2>
                 <li><a href="">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#skills">Skills</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="main-content">
+        <!-- Introduction -->
+        <section class="main-content">
             <div class="intro">
                 <h1>Hi,</h1>
                 <h1>I'm <span style="color:#F55050">Bhargav</span></h1>
                 <h3>Web Developer</h3>
                 <br><br>
-                <a href="#" style="color:#F55050">Download CV<i class="fa fa-download" aria-hidden="false" style="background-color:white;"></i></a>
+                <a href="#" style="color:#F55050">Download CV&nbsp;<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
             </div>
             <div class="about">
-                <i class="fa fa-github white" aria-hidden="true"></i>
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
             </div>
-        </div>
-        <div class="second-content">
+        </section>
+        <!-- About -->
+        <section class="about-content" id="about">
             <h1 class="center">About</h1>
             <div class="content-container">
                 <div class="pic">
                     <img src="portfolio-pic-removebg.png" alt="pic" width="200px" height="400px" >
                 </div>
                 <div>
-                    <h1 class="center font">i'm <span style="color:#F55050">Bhargav</span></h1>
-                    <p class="center font">I'm a computer science student at Malla Reddy Enginnering College.I am very much intrested about coding and i have good skills in development of a website</p>
+                    <h1 class="center font">My Name is <span style="color:#F55050">Bhargav</span></h1>
+                    <p class="center font">I'm a computer science student at Malla Reddy Enginnering College. I am very much intrested about coding and i have good skills in development of a website</p>
                 </div>
             </div>
-        </div>
-        <div class="third-content">
+        </section>
+        <!-- skills -->
+        <section class="skills-content" id="skills">
             <h1 class="center">Skills</h1>
             <div class="content-container">
                 <div class="tech-skills">
-                    <h1>HTML5</h1>
-                    <h1>CSS3</h1>
+                    <h1>HTML5&nbsp;&nbsp;<i class="fa fa-html5" aria-hidden="true"></i></h1>
+                    <h1>CSS3&nbsp;&nbsp;<i class="fa fa-css3" aria-hidden="true"></i></h1>
                     <h1>JAVASCRIPT</h1>
                     <h1>REACT JS</h1>
                     <H1>NODE JS</H1>
@@ -57,6 +65,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
