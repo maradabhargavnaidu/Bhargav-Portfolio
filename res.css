@@ -21,6 +21,10 @@
         display:flex;
         flex-direction: column;
     }
+    .contents-container{
+        display:flex;
+        flex-direction: column;
+    }
     .list a{
         text-decoration: none;
         color:white;
