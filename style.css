@@ -11,6 +11,12 @@
     /* background-color: #7e22ce; */
     /* color:#03001C; */
 }
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
 .toggle{
     display:none;
 }
