@@ -13,17 +13,38 @@
     display:none;
 }
 
+.footer-bg{
+    background-color:yellow;
+}
+
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: column;
+    padding:30px;
+}
+
+.footer-content h1{
+    color:black;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+}
+
 .about{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+    padding:20px;
 }
 
 .display-mobile{
     display:none;
 }
 
-.container{
+.container-1{
     max-width: 100%;
     width:1300px;
     margin:auto;
