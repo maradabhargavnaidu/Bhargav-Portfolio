@@ -57,7 +57,8 @@ html{
 }
 
 .intro a{
-    background-image:linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% );
+    /* background-image:linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% ); */
+    background-color: #7e22ce;
     font-weight: lighter;
     border-radius:10px;
     padding:10px 20px;
