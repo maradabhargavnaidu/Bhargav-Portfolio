@@ -139,12 +139,12 @@ ul{
     color:#F55050;
     border-bottom:2px solid #F55050;
 }
-
+/* 
 .main-content{
     background-color:#E9E8E8; 
     padding: 70px 10px; 
     border-radius: 5px;
-}
+} */
 
 .intro{
     margin-top: 20%;
@@ -221,6 +221,8 @@ ul{
 
 .contact-content{
     margin-top:20%;
+    background-color:#E9E8E8; 
+    padding: 70px 10px; 
 }
 
 .item{
