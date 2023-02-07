@@ -96,12 +96,6 @@ html{
     width:180px;
 }
 
-.container-1{
-    max-width: 100%;
-    width:1300px;
-    margin:auto;
-}
-
 .main-content{
     display:flex;
     justify-content: space-between;
@@ -144,6 +138,12 @@ ul{
 .nav-bar a:hover{
     color:#F55050;
     border-bottom:2px solid #F55050;
+}
+
+.main-content{
+    background-color:#E9E8E8; 
+    padding: 70px 10px; 
+    border-radius: 5px;
 }
 
 .intro{
