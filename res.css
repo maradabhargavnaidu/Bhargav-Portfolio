@@ -23,22 +23,24 @@
     }
     .list a{
         text-decoration: none;
-        color:black;
+        color:white;
     }
     .hamburger{
         display:block;
     }
     .list{
-        background-color:white;
+        background-color:#7e22ce;
         display:flex;
         flex-direction: column;
         justify-content: space-around;
         position:fixed;
         z-index: 100;
-        top:40px;
+        top:45px;
         right:0;
         height:100%;
         width:80vw;
+        font-family: 'Teko', sans-serif;
+        font-weight: lighter;
     }
     .nav-fix{
         display:flex;
