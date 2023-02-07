@@ -27,6 +27,7 @@
     }
     .hamburger{
         display:block;
+        cursor: pointer;
     }
     .list{
         background-color:#7e22ce;
