@@ -234,3 +234,16 @@ textarea{
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Teko', sans-serif;
 }
+
+@keyframes animate {
+    30%{
+        color:#7e22ce;
+    }
+    60%{
+        color:blueviolet;
+    }
+    90%{
+        color:rgb(223, 24, 223);
+    }
+    
+}
