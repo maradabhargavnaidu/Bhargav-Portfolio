@@ -27,10 +27,12 @@
     }
     .hamburger{
         display:block;
-        cursor: pointer;
-        
+        cursor: pointer;   
     }
-    .list{
+    /* .hamburger:onclick{
+        transition:transform 3s ease-in-out;
+    } */
+    #list{
         background-color:#7e22ce;
         display:flex;
         flex-direction: column;
@@ -43,7 +45,8 @@
         width:80vw;
         font-family: 'Teko', sans-serif;
         font-weight: lighter;
-        transition:4s ease-in-out;
+        /* transform:translate(0,100px); */
+        
     }
     .nav-fix{
         display:flex;
@@ -53,6 +56,7 @@
         font-family: 'Teko', sans-serif;
         font-weight: 300;
         box-shadow: 0 2px 2px -2px black;
+        
     }
     .nav-fix h1{
         margin-left:0;
