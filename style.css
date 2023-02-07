@@ -8,7 +8,7 @@
     /* background-color:white; */
     color:black;
     font-size: 25px;
-    /* background-color: #7e22ce; */
+    /* background-color: #E9E8E8; */
     /* color:#03001C; */
 }
 
@@ -31,6 +31,10 @@ html{
     /* font-family: 'Cormorant Garamond', serif; */
     font-family: 'Teko', sans-serif;
     font-weight: lighter;
+}
+
+.fa{
+    color: black;
 }
 
 .footer-bg{
