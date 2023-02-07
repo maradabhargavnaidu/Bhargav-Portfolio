@@ -6,7 +6,8 @@
     padding:0;
     /* background-color:#181818;#03001c */
     /* background-color:white; */
-    color:black
+    color:black;
+    font-size: 25px;
     /* color:#03001C; */
 }
 .toggle{
