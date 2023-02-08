@@ -14,12 +14,23 @@
         top:0;
         background-color:white;
     }
+    .intro{
+        margin-top:10%;
+    }
     .display-desktop{
         display:none;
     }
     .content-container{
         display:flex;
         flex-direction: column;
+    }
+    .main-content{
+        line-height:0.8;
+    }
+    .about{
+        justify-content: space-between;
+        align-items: center;
+        height:200px;
     }
     .contents-container{
         display:flex;
