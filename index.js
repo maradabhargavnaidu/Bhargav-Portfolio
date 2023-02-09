@@ -11,4 +11,4 @@ hamburger.addEventListener('click', () => {
 list.addEventListener('click',() => {
     list.classList.toggle('toggle');
     list.classList.toggle('block');
-})
+});
