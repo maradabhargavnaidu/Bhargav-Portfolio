@@ -1,38 +1,336 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    color:black;
+    font-size: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.display-mobile{
+    display:none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.none{
+    display:none;
 }
 
-.App-link {
-  color: #61dafb;
+/*------------------------------ NAVBAR -----------------------------*/
+.nav-bar{
+    padding:10px 0;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    position:sticky;
+    top:0;
+    padding-left: 0;
+    background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-f h2{
+    font-weight:bolder; 
+    color:#7e22ce;
+}
+
+.nav-f li a{
+    text-decoration: none;
+}
+
+.nav-f{
+    position:fixed;
+    background-color:white;
+    width:100%;
+    top:0;
+}
+
+.nav-bar a:hover{
+    color:#F55050;
+    border-bottom:2px solid #F55050;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    padding:0 20px;
+}
+
+ul{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* ------------------------BUTTONS -------------------------------------*/
+.btns{
+    background-color: #7e22ce;
+    color:white;
+    border:none;
+    padding:5px 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+}
+
+.fa{
+    color: black;
+}
+
+.footer-bg{
+    background-color:yellow;
+}
+
+.intro a{
+    /* background-image:linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% ); */
+    background-color: #7e22ce;
+    font-weight: lighter;
+    border-radius:10px;
+    padding:10px 20px;
+    color:white;
+    text-decoration:none;
+}
+
+.intro .fa{
+    color:white;
+
+}
+
+.about{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px; */
+    padding:20px;
+}
+
+.links{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    width:180px;
+}
+
+.main-content{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* ---------------------INTRODUCTION ------------------------*/
+.intro{
+    margin-top: 20%;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+}
+
+.intro a{
+    /* text-decoration: none; */
+    font-size: 18px;  
+}
+
+.intro h1{
+    font-size: 75px;
+    /* font-weight: lighter; */
+}
+
+.intro h3{
+    font-size:50px;
+}
+/* --------------------------------ABOUT------------------------- */
+.about{
+    margin-top: 20%;
+}
+
+.about-content{
+    margin-top: 20%;
+}
+
+.white{
+    color:white;
+}
+
+.center{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+}
+
+.font{
+    font-size: 20px;
+}
+
+.content-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:800px;
+    max-width:100%;
+    margin:auto;
+    background-color: black;
+    padding:50px;
+    border-radius: 10px;
+}
+
+.contents-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:800px;
+    max-width:100%;
+    margin:auto;
+    padding:20px;
+}
+
+.pic img{
+    background-color:#7e22ce;
+    border-radius: 10px;
+}
+
+.skills-content{
+    margin-top:20%;
+}
+
+.contact-content{
+    margin-top:20%;
+    background-color:#E9E8E8; 
+    padding: 70px 10px; 
+}
+
+.item{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+    padding:10px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contact-item{
+    font-size: 40px;
+    text-align: center;
+}
+
+.flex-contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width:300px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Teko', sans-serif;
+}
+textarea{
+    width:300px;
+    height:150px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Teko', sans-serif;
+}
+/* ---------------------------FOOTER------------------------------- */
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: column;
+    padding:30px;
+}
+
+.footer-content h1{
+    color:black;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+.footer-content h6,p{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Teko', sans-serif;
+}
+
+/* -----------------------------------MEDIA-SCREEN-MOBILE---------------------------------- */
+@media screen and (max-width:768px) {
+    .display-mobile{
+        display:block;
+        position:sticky;
+        top:0;
+        background-color:white;
+    }
+
+    .display-desktop{
+        display:none;
+    }
+/*----------------------------------------- NAVBAR -----------------------------*/
+    .nav-fix{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 22px;
+        padding-right:22px;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        box-shadow: 0 2px 2px -2px black;
+        /* width:450px; */
+    }
+
+    #list{
+        background-color:#7e22ce;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position:fixed;
+        z-index: 100;
+        top:58px;
+        right:0;
+        height:100%;
+        width:80vw;
+        font-family: 'Teko', sans-serif;
+        font-weight: lighter;    
+    }
+
+    .list a{
+        text-decoration: none;
+        color:white;
+    }
+
+    .hamburger{
+        display:block;
+        cursor: pointer;   
+    }
+/*--------------------------------------- INTRODUCTION --------------------------------------*/
+    .intro{
+        margin-top:10%;
+    }
+
+    .about{
+        justify-content: space-between;
+        align-items: center;
+        height:200px;
+    }
+/*-------------------------------------------- CONTENTS ---------------------------------------*/
+    .content-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .main-content{
+        line-height:0.8;
+    }
+    
+    .contents-container{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .block{
+        display:block;
+    }
+
+    .contact-item{
+        font-size: 28px;
+    }
+    
 }
