@@ -1,9 +1,7 @@
 import { useRef } from 'react';
-// import '../App.css'
 
 const Navbar = () => {
     const navref = useRef();
-    const lisref = useRef()
     const navToggle = () =>{
         navref.current.classList.toggle('block')
         navref.current.classList.toggle('toggle')
