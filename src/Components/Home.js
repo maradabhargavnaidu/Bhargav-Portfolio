@@ -10,10 +10,10 @@ const Home = () => {
         <h3 style={{ color: "#fd841f" }}>Web Developer</h3>
         <br />
         <br />
-        <a href="" style={{ fontSize: "40px" }}>
+        {/* <a href="" style={{ fontSize: "40px" }}>
           Download CV&nbsp;
           <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
-        </a>
+        </a> */}
       </div>
 
       {/* <!------------Intro-Social Links-----------> */}
