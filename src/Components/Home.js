@@ -1,35 +1,26 @@
+import React from "react";
+
 const Home = () => {
   return (
-    <section className="main-content">
-      <div className="intro" id="home">
-        <h1 style={{ fontSize: "75px" }}>G'day,</h1>
-        <h1>
-          I'm{" "}
-          <span style={{ color: "#7e22ce", fontSize: "75px" }}>Bhargav</span>
-        </h1>
-        <h3 style={{ color: "#fd841f" }}>Web Developer</h3>
-        <br />
-        <br />
-        {/* <a href="" style={{ fontSize: "40px" }}>
-          Download CV&nbsp;
-          <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
-        </a> */}
+    <div className="bg-black text-white font-abc md:text-7xl text-5xl">
+      <div className="container mx-auto py-20 space-y-5 md:px-20 px-5 ">
+        <p>G'day,</p>
+        <p>I'm Bhargav</p>
+        <p className="text-[#86a5d9]">A Web Developer</p>
+        <div className="md:text-5xl space-x-5 py-5 text-4xl">
+          <a href="#">
+            <i class="devicon-github-original"></i>
+          </a>
+          <a href="#">
+            <i class="devicon-linkedin-plain"></i>
+          </a>
+          <a href="#">
+            <i class="devicon-twitter-original"></i>
+          </a>
+        </div>
       </div>
-
-      {/* <!------------Intro-Social Links-----------> */}
-
-      <div class="about">
-        <a href="https://github.com/maradabhargavnaidu">
-          <i class="fa fa-github" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/bhargav-naidu">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
-        <a href="https://instagram.com/maradabhargavnaidu?igshid=YzgyMTM2MGM=">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-      </div>
-    </section>
+    </div>
   );
 };
+
 export default Home;
