@@ -25,29 +25,29 @@ const Navbar = () => {
         </div>
         <ul className="list-none space-x-5 text-xl items-center font-abc hidden md:flex">
           <li>
-            <a href="#Home" className="text-white ">
+            <a href="/#Home" className="text-white ">
               Home
             </a>
           </li>
           <li>
-            <a href="#About" className="text-white">
+            <a href="/#About" className="text-white">
               About
             </a>
           </li>
           <li>
-            <a href="#Skills" className="text-white">
+            <a href="/#Skills" className="text-white">
               Skills
             </a>
           </li>
           <li>
-            <a href="#Contact" className="text-white">
+            <a href="/#Contact" className="text-white">
               Contact
             </a>
           </li>
         </ul>
         <ul
           className={
-            "md:hidden absolute mt-52 bg-white text-black flex flex-col font-abc " +
+            "md:hidden absolute mt-72 py-10 bg-gray-900 text-white flex flex-col font-abc w-[95%] mx-auto text-center " +
             (menuToggle ? "hidden" : "")
           }
         >
