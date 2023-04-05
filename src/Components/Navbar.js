@@ -6,7 +6,7 @@ const Navbar = () => {
     setMenuToggle(!menuToggle);
   };
   return (
-    <div className="bg-black ">
+    <div className="bg-black fixed w-full shadow-gray-300 shadow-sm">
       <nav className="flex justify-between container py-3 mx-auto text-3xl px-3 items-center">
         <ul className="list-none text-white">
           <li>
