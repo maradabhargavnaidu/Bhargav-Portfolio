@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div
       className="bg-black text-white font-abc md:text-7xl text-5xl"
-      id="#Home"
+      id="Home"
     >
       <div className="container mx-auto py-20 space-y-5 md:px-20 px-5 ">
         <p>G'day,</p>
