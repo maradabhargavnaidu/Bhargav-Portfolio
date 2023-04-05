@@ -7,13 +7,13 @@ const Footer = () => {
         <p className="text-3xl">Marada Bhargav Naidu</p>
         <p className="text-xl">Stay Connected</p>
         <div className="md:text-5xl space-x-5 text-3xl text-white">
-          <a href="#">
+          <a href="https://github.com/maradabhargavnaidu">
             <i class="devicon-github-original"></i>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/bhargav-naidu">
             <i class="devicon-linkedin-plain"></i>
           </a>
-          <a href="#">
+          <a href="https://twitter.com/maradabhargav">
             <i class="devicon-twitter-original"></i>
           </a>
         </div>

@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [menuToggle, setMenuToggle] = useState(true);
+  const Handletoggle = () => {
+    setMenuToggle(!menuToggle);
+  };
   return (
     <div className="bg-black ">
-      <nav className="flex justify-between container py-3 mx-auto text-3xl px-3">
+      <nav className="flex justify-between container py-3 mx-auto text-3xl px-3 items-center">
         <ul className="list-none text-white">
           <li>
             <a href="#Home" className="text-white font-abc">
@@ -11,7 +15,15 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <ul className="list-none flex space-x-5 text-xl items-center font-abc ">
+        <div
+          className="flex flex-col justify-between h-5 md:hidden"
+          onClick={Handletoggle}
+        >
+          <span className="border-white border-2 rounded w-6"></span>
+          <span className="border-white border-2 rounded"></span>
+          <span className="border-white border-2 rounded"></span>
+        </div>
+        <ul className="list-none space-x-5 text-xl items-center font-abc hidden md:flex">
           <li>
             <a href="#Home" className="text-white ">
               Home
@@ -31,6 +43,25 @@ const Navbar = () => {
             <a href="#Contact" className="text-white">
               Contact
             </a>
+          </li>
+        </ul>
+        <ul
+          className={
+            "md:hidden absolute mt-52 bg-white text-black flex flex-col font-abc " +
+            (menuToggle ? "hidden" : "")
+          }
+        >
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </nav>
