@@ -19,7 +19,9 @@ const Projects = () => {
             height="500px"
             className=" rounded-t-[15px]"
           />
-          <p className="text-5xl text-violet-900 mt-3 px-5">Yaatra</p>
+          <p className="text-md-5xl text-3xl text-violet-900 mt-3 px-5">
+            Yaatra
+          </p>
           <p className="text-black text-xl px-5">
             This is a Trip planning website
           </p>
@@ -48,7 +50,9 @@ const Projects = () => {
             height="500px"
             className=" rounded-t-[15px]"
           />
-          <p className="text-5xl text-violet-900 mt-3 px-5">College Portal</p>
+          <p className="text-md-5xl text-3xl text-violet-900 mt-3 px-5">
+            College Portal
+          </p>
           <p className="text-black text-xl px-5">
             College admin can store the expenses and other data
           </p>
