@@ -46,6 +46,7 @@ const Navbar = () => {
           </li>
         </ul>
         <ul
+          onClick={Handletoggle}
           className={
             "md:hidden absolute mt-72 py-10 bg-gray-900 text-white flex flex-col font-abc w-[95%] mx-auto text-center " +
             (menuToggle ? "hidden" : "")
