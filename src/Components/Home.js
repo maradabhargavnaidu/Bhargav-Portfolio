@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div
-      className="bg-black text-white font-abc md:text-7xl text-5xl scroll-smooth"
+      className="bg-black text-white font-abc md:text-7xl text-5xl scroll-smooth pt-5"
       id="Home"
     >
       <div className="container mx-auto py-20 space-y-5 md:px-20 px-5 ">
@@ -21,6 +21,13 @@ const Home = () => {
             <i class="devicon-twitter-original"></i>
           </a>
         </div>
+        <a
+          href="https://drive.google.com/file/d/1VuTef9k3YQ2OEq1nefGX4Nb1iJxoJnpm/view?usp=sharing"
+          className="text-4xl bg-red-500 py-2 px-5 rounded-lg"
+          target="_blank"
+        >
+          My Resume
+        </a>
       </div>
     </div>
   );

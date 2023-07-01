@@ -40,8 +40,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/#Contact" className="text-white">
-              Contact
+            <a href="/#projects" className="text-white">
+              Projects
             </a>
           </li>
         </ul>
