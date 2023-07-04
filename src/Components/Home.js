@@ -22,7 +22,7 @@ const Home = () => {
           </a>
         </div>
         <a
-          href="https://drive.google.com/file/d/1VuTef9k3YQ2OEq1nefGX4Nb1iJxoJnpm/view?usp=sharing"
+          href="https://drive.google.com/file/d/13Oj4virqdkqCnWP7dp0bYazd2KrQqMiD/view?usp=sharing"
           className="text-4xl bg-red-500 py-2 px-5 rounded-lg"
           target="_blank"
         >
