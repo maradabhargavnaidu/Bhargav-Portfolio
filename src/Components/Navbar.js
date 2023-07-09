@@ -54,8 +54,10 @@ const Navbar = () => {
         <ul
           onClick={Handletoggle}
           className={
-            "md:hidden absolute mt-72 py-10 bg-gray-900 text-white flex flex-col font-abc w-[95%] mx-auto text-center " +
-            (menuToggle ? "hidden" : "")
+            "md:hidden absolute mt-80 py-5 space-y-4 duration-1000 text-white flex flex-col font-abc w-[95%] text-center " +
+            (menuToggle
+              ? "-translate-x-full bg-transparent"
+              : "translate-x-0 bg-gray-900")
           }
         >
           <li>
