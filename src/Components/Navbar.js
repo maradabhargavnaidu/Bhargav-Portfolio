@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import logo from "../assets/mbn.png";
 const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(true);
   const Handletoggle = () => {
@@ -11,7 +11,13 @@ const Navbar = () => {
         <ul className="list-none text-white">
           <li>
             <a href="#Home" className="text-white font-abc">
-              MBN
+              <img
+                src={logo}
+                alt="logo"
+                height="60px"
+                width="60px"
+                className="rounded-full"
+              />
             </a>
           </li>
         </ul>
