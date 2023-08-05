@@ -8,7 +8,7 @@ import Footer from "./Components/Footer";
 import Projects from "./Components/Projects";
 const App = () => {
   return (
-    <div className="bg-black">
+    <div className="">
       <Navbar />
       <Home />
       <About />
