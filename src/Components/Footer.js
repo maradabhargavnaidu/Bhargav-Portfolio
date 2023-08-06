@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 text-gray-300 font-abc text-center">
+    <div className="bg-gray-200 text-gray-800 font-abc text-center">
       <div className="container mx-auto py-20 space-y-5">
         <p className="text-3xl">Marada Bhargav Naidu</p>
         <p className="text-xl">Stay Connected</p>
-        <div className="md:text-5xl space-x-5 text-3xl text-white">
+        <div className="md:text-5xl space-x-5 text-3xl text-gray-800">
           <a href="https://github.com/maradabhargavnaidu">
             <i class="devicon-github-original"></i>
           </a>
@@ -17,7 +17,7 @@ const Footer = () => {
             <i class="devicon-twitter-original"></i>
           </a>
         </div>
-        <p className="text-gray-400">maradabhargavnaidu &copy; 2023</p>
+        <p className="text-gray-800">maradabhargavnaidu &copy; 2023</p>
       </div>
     </div>
   );

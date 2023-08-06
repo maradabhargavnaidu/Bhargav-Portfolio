@@ -7,10 +7,8 @@ const Projects = () => {
       className="container mx-auto font-abc px-5 py-5 flex flex-col justify-center items-center"
       id="projects"
     >
-      <p className="text-center text-yellow-400 md:text-5xl text-4xl">
-        Projects
-      </p>
-      <div className="flex gap-5 py-5 flex-wrap justify-center">
+      <p className="text-center text-blue-600 md:text-5xl text-4xl">Projects</p>
+      <div className="flex gap-5 py-10 flex-wrap justify-center">
         <div className=" bg-green-300 rounded-[15px]">
           <img
             src={yaatra}
