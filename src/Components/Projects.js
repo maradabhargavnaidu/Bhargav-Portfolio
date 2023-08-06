@@ -4,7 +4,7 @@ import portal from "../assets/portal.png";
 const Projects = () => {
   return (
     <div
-      className="container mx-auto font-abc px-5 py-5 flex flex-col justify-center items-center"
+      className="container mx-auto font-abc px-5 py-5 flex flex-col justify-center items-center scroll-m-24 scroll-smooth"
       id="projects"
     >
       <p className="text-center text-blue-600 md:text-5xl text-4xl">Projects</p>
