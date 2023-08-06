@@ -11,8 +11,9 @@ const About = () => {
         <div className="space-y-5 py-20 text-left">
           <p className="text-green-700">Who is Bhargav ?</p>
           <p className="md:text-5xl text-left text-4xl">
-            A full stack Developer, Currently pursuing B.Tech 2nd year in Malla
-            Reddy Engineering College. I am very much intrested in coding.
+            I am a full-stack developer currently pursuing my second year of
+            B.Tech at Malla Reddy Engineering College. I have a strong interest
+            in coding.
           </p>
         </div>
       </div>
