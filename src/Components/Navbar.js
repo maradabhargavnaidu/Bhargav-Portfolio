@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/mbn.png";
+
 const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(true);
   const Handletoggle = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
   };
   return (
     <div className="bg-black fixed w-full shadow-gray-300 shadow-sm">
-      <nav className="flex justify-between container py-3 mx-auto text-3xl px-3 items-center">
+      <nav className="flex justify-between container py-4 mx-auto text-3xl px-3 items-center">
         <ul className="list-none text-white">
           <li>
             <a href="#Home" className="text-white font-abc">
@@ -25,22 +25,22 @@ const Navbar = () => {
         </div>
         <ul className="list-none space-x-5 text-xl items-center font-abc hidden md:flex">
           <li>
-            <a href="/#Home" className="text-gray-800">
+            <a href="/#Home" className="text-white">
               Home
             </a>
           </li>
           <li>
-            <a href="/#About" className="text-gray-800">
+            <a href="/#About" className="text-white">
               About
             </a>
           </li>
           <li>
-            <a href="/#Skills" className="text-gray-800">
+            <a href="/#Skills" className="text-white">
               Skills
             </a>
           </li>
           <li>
-            <a href="/#projects" className="text-gray-800">
+            <a href="/#projects" className="text-white">
               Projects
             </a>
           </li>
