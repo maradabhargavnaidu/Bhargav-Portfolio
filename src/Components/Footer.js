@@ -8,13 +8,13 @@ const Footer = () => {
         <p className="text-xl">Stay Connected</p>
         <div className="md:text-5xl space-x-5 text-3xl ">
           <a href="https://github.com/maradabhargavnaidu">
-            <i class="devicon-github-original"></i>
+            <i className="devicon-github-original"></i>
           </a>
           <a href="https://www.linkedin.com/in/bhargav-naidu">
-            <i class="devicon-linkedin-plain"></i>
+            <i className="devicon-linkedin-plain"></i>
           </a>
           <a href="https://twitter.com/maradabhargav">
-            <i class="devicon-twitter-original"></i>
+            <i className="devicon-twitter-original"></i>
           </a>
         </div>
         <p>maradabhargavnaidu &copy; 2023</p>

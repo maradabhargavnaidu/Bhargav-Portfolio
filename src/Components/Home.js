@@ -7,18 +7,18 @@ const Home = () => {
       id="Home"
     >
       <div className="container mx-auto py-20 space-y-5 md:px-20 px-5 ">
-        <p className="text-gray-800">G'day,</p>
-        <p>I'm Bhargav</p>
+        <p className="text-gray-800">G&apos;day,</p>
+        <p>I&apos;m Bhargav</p>
         <p className="text-red-500">A Web Developer</p>
         <div className="md:text-5xl space-x-5 py-5 text-4xl">
           <a href="https://github.com/maradabhargavnaidu">
-            <i class="devicon-github-original"></i>
+            <i className="devicon-github-original"></i>
           </a>
           <a href="https://www.linkedin.com/in/bhargav-naidu">
-            <i class="devicon-linkedin-plain"></i>
+            <i className="devicon-linkedin-plain"></i>
           </a>
           <a href="https://twitter.com/maradabhargav">
-            <i class="devicon-twitter-original"></i>
+            <i className="devicon-twitter-original"></i>
           </a>
         </div>
         <a
