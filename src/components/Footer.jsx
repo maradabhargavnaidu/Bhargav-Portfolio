@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-neutral-950 text-white font-varela border-t-2 border-white">
+    <div className="bg-neutral-950 text-white font-varela border-t-[1px] border-white">
       <div className="container mx-auto pt-20 flex md:flex-row flex-col justify-center items-center gap-5 md:justify-between">
         <p className="text-xl"> Developed by Marada Bhargav Naidu</p>
         <div>

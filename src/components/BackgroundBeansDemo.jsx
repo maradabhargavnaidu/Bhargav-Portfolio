@@ -10,8 +10,11 @@ export function BackgroundBeamsDemo() {
           <p className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela  font-normal">
             G&apos;day,
           </p>
-          <p className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-varela font-bold">
-            <span className="relative z-10 text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela font-normal">
+          {/* <p className="relative z-10 text-4xl md:text-6xl text-white font-varela  font-normal">
+            G&apos;day,
+          </p> */}
+          <p className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-varela font-bold">
+            <span className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela font-normal">
               I&apos;m
             </span>{" "}
             Bhargav
@@ -22,21 +25,21 @@ export function BackgroundBeamsDemo() {
           </p>
           <div className=" space-x-5 py-5 pb-10 text-3xl md:text-4xl">
             <a href="https://github.com/maradabhargavnaidu">
-              <i className="devicon-github-original relative z-10 bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700"></i>
+              <i className="devicon-github-original relative z-10 bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500"></i>
             </a>
             <a href="https://www.linkedin.com/in/bhargav-naidu">
-              <i className="devicon-linkedin-plain relative z-10 bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700"></i>
+              <i className="devicon-linkedin-plain relative z-10 bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500"></i>
             </a>
             <a href="https://twitter.com/maradabhargav">
-              <i className="devicon-twitter-original relative z-10 cursor-pointer bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700"></i>
+              <i className="devicon-twitter-original relative z-10 cursor-pointer bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500"></i>
             </a>
           </div>
           <a
             href="https://drive.google.com/file/d/13Oj4virqdkqCnWP7dp0bYazd2KrQqMiD/view?usp=sharing"
-            className="text-2xl relative z-10 bg-gradient-to-b from-yellow-200 to-yellow-700 font-varela py-3 font-bold text-neutral-900 px-4 rounded-lg text- tral-50"
+            className="text-2xl md:text-3xl relative z-10 bg-gradient-to-b from-yellow-200 to-yellow-500 font-varela py-2 font-semibold text-neutral-950 px-7 rounded-sm"
             target="_blank"
           >
-            My Resume
+            Resume
           </a>
         </div>
         <BackgroundBeams />

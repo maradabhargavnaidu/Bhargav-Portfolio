@@ -7,15 +7,15 @@ const Skills = () => {
       id="Skills"
     >
       <div className="container mx-auto  px-5">
-        <p className=" text-4xl bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold">
+        {/* <p className=" text-4xl bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold">
           Skills
-        </p>
+        </p> */}
 
         <div className="text-white py-10 text-2xl">
-          <div className="flex md:flex-row flex-col justify-start items-start md:justify-between">
+          <div className="flex md:flex-row flex-col gap-10  justify-start items-start md:justify-between">
             {/* Languages */}
             <div className="flex flex-col items-start space-y-10">
-              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold text-3xl">
+              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold text-3xl">
                 Languages
               </p>
               <div className="flex flex-col items-start space-y-10">
@@ -64,7 +64,7 @@ const Skills = () => {
 
             {/* Frameworks */}
             <div className="flex flex-col items-start space-y-10">
-              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold text-3xl">
+              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold text-3xl">
                 Frameworks
               </p>
               <div className="flex flex-col items-start space-y-10">
@@ -101,7 +101,7 @@ const Skills = () => {
 
             {/* Databases */}
             <div className="flex flex-col items-start space-y-10">
-              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold  text-3xl">
+              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold  text-3xl">
                 Databases
               </p>
               <div className="flex flex-col items-start space-y-10">
@@ -124,7 +124,7 @@ const Skills = () => {
 
             {/* Cloud */}
             <div className="flex flex-col items-start space-y-10">
-              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold  text-3xl">
+              <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold  text-3xl">
                 Cloud
               </p>
               <div className="flex flex-col items-start space-y-10">

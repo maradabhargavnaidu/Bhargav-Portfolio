@@ -11,7 +11,7 @@ const Navbar = () => {
         <ul className="list-none text-white">
           <li>
             <a href="#Home" className="text-white font-varela font-semibold ">
-              <span className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700">
+              <span className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500">
                 MBN
               </span>
             </a>

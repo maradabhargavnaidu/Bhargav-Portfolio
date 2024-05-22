@@ -7,7 +7,7 @@ const Work = () => {
       id="Work"
     >
       <div className="container mx-auto  text-4xl  px-5">
-        <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold">
+        <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold">
           Work
         </p>
         <div className="space-y-5 py-8 text-left">
