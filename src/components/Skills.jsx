@@ -12,33 +12,13 @@ const Skills = () => {
         </p>
 
         <div className="text-white py-10 text-2xl">
-          <div className="flex flex-wrap justify-between space-x-10">
+          <div className="flex md:flex-row flex-col justify-start items-start md:justify-between">
             {/* Languages */}
-            <div className="flex flex-col items-center space-y-10">
+            <div className="flex flex-col items-start space-y-10">
               <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold text-3xl">
                 Languages
               </p>
-              <div className="flex flex-col items-center space-y-10">
-                <div className="flex justify-center space-x-10">
-                  <div className="flex flex-col items-center">
-                    <div className="p-4 border-2 border-white rounded-full">
-                      <i className="devicon-c-line colored text-5xl"></i>
-                    </div>
-                    <span className="mt-2 text-[18px]">C</span>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <div className="p-4 border-2 border-white rounded-full">
-                      <i className="devicon-java-plain colored text-5xl"></i>
-                    </div>
-                    <span className="mt-2 text-[18px]">Java</span>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <div className="p-4 border-2 border-white rounded-full">
-                      <i className="devicon-python-plain colored text-5xl"></i>
-                    </div>
-                    <span className="mt-2 text-[18px]">Python</span>
-                  </div>
-                </div>
+              <div className="flex flex-col items-start space-y-10">
                 <div className="flex justify-center space-x-10">
                   <div className="flex flex-col items-center">
                     <div className="p-4 border-2 border-white rounded-full">
@@ -59,15 +39,35 @@ const Skills = () => {
                     <span className="mt-2 text-[18px]">JavaScript</span>
                   </div>
                 </div>
+                <div className="flex justify-start space-x-10">
+                  <div className="flex flex-col items-center">
+                    <div className="p-4 border-2 border-white rounded-full">
+                      <i className="devicon-c-line colored text-5xl"></i>
+                    </div>
+                    <span className="mt-2 text-[18px]">C</span>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <div className="p-4 border-2 border-white rounded-full">
+                      <i className="devicon-java-plain colored text-5xl"></i>
+                    </div>
+                    <span className="mt-2 text-[18px]">Java</span>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <div className="p-4 border-2 border-white rounded-full">
+                      <i className="devicon-python-plain colored text-5xl"></i>
+                    </div>
+                    <span className="mt-2 text-[18px]">Python</span>
+                  </div>
+                </div>
               </div>
             </div>
 
             {/* Frameworks */}
-            <div className="flex flex-col items-center space-y-10">
+            <div className="flex flex-col items-start space-y-10">
               <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold text-3xl">
                 Frameworks
               </p>
-              <div className="flex flex-col items-center space-y-10">
+              <div className="flex flex-col items-start space-y-10">
                 <div className="flex justify-center space-x-10">
                   <div className="flex flex-col items-center">
                     <div className="p-4 border-2 border-white rounded-full">
@@ -100,11 +100,11 @@ const Skills = () => {
             </div>
 
             {/* Databases */}
-            <div className="flex flex-col items-center space-y-10">
+            <div className="flex flex-col items-start space-y-10">
               <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold  text-3xl">
                 Databases
               </p>
-              <div className="flex flex-col items-center space-y-10">
+              <div className="flex flex-col items-start space-y-10">
                 <div className="flex justify-center space-x-10">
                   <div className="flex flex-col items-center">
                     <div className="p-4 border-2 border-white rounded-full">
@@ -123,11 +123,11 @@ const Skills = () => {
             </div>
 
             {/* Cloud */}
-            <div className="flex flex-col items-center space-y-10">
+            <div className="flex flex-col items-start space-y-10">
               <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-semibold  text-3xl">
                 Cloud
               </p>
-              <div className="flex flex-col items-center space-y-10">
+              <div className="flex flex-col items-start space-y-10">
                 <div className="flex justify-center space-x-10">
                   <div className="flex flex-col items-center">
                     <div className="p-4 border-2 border-white rounded-full">

@@ -7,20 +7,20 @@ export function BackgroundBeamsDemo() {
     <>
       <div className="bg-neutral-950 scroll-smooth pt-10" id="Home">
         <div className="container mx-auto py-20 space-y-5 px-5 ">
-          <p className="relative z-10 text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela  font-normal">
+          <p className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela  font-normal">
             G&apos;day,
           </p>
-          <p className="relative z-10 text-5xl bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-varela font-bold">
+          <p className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700 font-varela font-bold">
             <span className="relative z-10 text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela font-normal">
               I&apos;m
             </span>{" "}
             Bhargav
           </p>
 
-          <p className="relative z-10 text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela font-normal">
+          <p className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela font-normal">
             Full Stack Developer
           </p>
-          <div className=" space-x-5 py-5 pb-10 text-3xl">
+          <div className=" space-x-5 py-5 pb-10 text-3xl md:text-4xl">
             <a href="https://github.com/maradabhargavnaidu">
               <i className="devicon-github-original relative z-10 bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-700"></i>
             </a>
@@ -33,7 +33,7 @@ export function BackgroundBeamsDemo() {
           </div>
           <a
             href="https://drive.google.com/file/d/13Oj4virqdkqCnWP7dp0bYazd2KrQqMiD/view?usp=sharing"
-            className="text-xl relative z-10 bg-gradient-to-b from-yellow-200 to-yellow-700 font-varela py-3 font-semibold text-neutral-900 px-4 rounded-lg text- tral-50"
+            className="text-2xl relative z-10 bg-gradient-to-b from-yellow-200 to-yellow-700 font-varela py-3 font-bold text-neutral-900 px-4 rounded-lg text- tral-50"
             target="_blank"
           >
             My Resume

@@ -2,23 +2,25 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-neutral-950 text-white font-varela text-center">
-      <div className="container mx-auto py-20 space-y-5">
-        <p className="text-3xl">Marada Bhargav Naidu</p>
-        <p className="text-xl">Stay Connected</p>
-        <div className="md:text-5xl space-x-5 text-3xl ">
-          <a href="https://github.com/maradabhargavnaidu">
-            <i className="devicon-github-original"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/bhargav-naidu">
-            <i className="devicon-linkedin-plain"></i>
-          </a>
-          <a href="https://twitter.com/maradabhargav">
-            <i className="devicon-twitter-original"></i>
-          </a>
+    <div className="bg-neutral-950 text-white font-varela border-t-2 border-white">
+      <div className="container mx-auto pt-20 flex md:flex-row flex-col justify-center items-center gap-5 md:justify-between">
+        <p className="text-xl"> Developed by Marada Bhargav Naidu</p>
+        <div>
+          <p className="text-xl mb-3">Stay Connected</p>
+          <div className="flex text-3xl gap-4">
+            <a href="https://github.com/maradabhargavnaidu">
+              <i className="devicon-github-original"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bhargav-naidu">
+              <i className="devicon-linkedin-plain"></i>
+            </a>
+            <a href="https://twitter.com/maradabhargav">
+              <i className="devicon-twitter-original"></i>
+            </a>
+          </div>
         </div>
-        <p>maradabhargavnaidu &copy; 2023</p>
       </div>
+      <p className="text-center py-5">maradabhargavnaidu &copy; 2024</p>
     </div>
   );
 };
