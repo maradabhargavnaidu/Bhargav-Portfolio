@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import { BackgroundGradientDemo } from "./components/BackgroundGradientDemo";
+import Work from "./components/Work";
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <BackgroundBeamsDemo />
       <About />
       <Skills />
+      <Work />
       <BackgroundGradientDemo />
       <Footer />
     </div>
