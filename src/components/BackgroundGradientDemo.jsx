@@ -5,7 +5,7 @@ import { BackgroundGradient } from "./ui/Background-gradient";
 
 export function BackgroundGradientDemo() {
   return (
-    <div className="bg-neutral-950 py-20" id="projects">
+    <div className="bg-neutral-950 font-varela py-20" id="projects">
       <div className=" container mx-auto px-5">
         <p className=" font-varela mb-10 bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold text-4xl">
           Projects
@@ -13,7 +13,7 @@ export function BackgroundGradientDemo() {
         <div className="flex md:flex-row flex-col px-2 items-center justify-items-start gap-5 bg-neutral-950">
           <BackgroundGradient className=" p-4 sm:p-10 md:max-w-[400px] bg-white dark:bg-zinc-900 rounded-3xl">
             <div className="  rounded-[15px]">
-              <p className="text-3xl  text-black mt-4 mb-2 dark:text-neutral-200">
+              <p className="text-3xl font-varela  text-black mt-4 mb-2 dark:text-neutral-200">
                 Yaatra
               </p>
               <p className="text-lg text-neutral-600 dark:text-neutral-400">

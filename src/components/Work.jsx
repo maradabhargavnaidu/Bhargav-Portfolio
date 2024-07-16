@@ -11,42 +11,42 @@ const Work = () => {
           Work
         </p>
         <div className="space-y-5 py-8 text-left">
-          <p className="relative z-10 text-3xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela  font-semibold">
+          <p className="relative z-10 text-3xl bg-clip-text text-transparent bg-white font-varela  font-semibold">
             SkyGoal Innova Technologies Pvt Ltd
           </p>
           <div>
-            <p className="relative z-10 text-3xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela  font-normal">
+            <p className="relative z-10 text-3xl bg-clip-text text-transparent bg-white font-varela  font-normal">
               Web Developer Intern
             </p>
-            <p className="relative z-10 text-xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-varela  font-extralight">
+            <p className="relative z-10 text-xl bg-clip-text text-transparent bg-white font-varela  font-extralight">
               Mar.2023 - Jun.2023
             </p>
           </div>
 
           <ul className="text-left text-xl list-disc marker:text-white pl-5">
-            <li className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+            <li className="bg-clip-text text-transparent bg-white">
               Sky Goal is an India-based Global Edtech platform that helps
               students seeking admissions to institutions simply.
             </li>
-            <li className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+            <li className="bg-clip-text text-transparent bg-white">
               Built Sky Goal Ambassador website in React framework from Figma
               design. Optimized API calls using Axios and enhanced user
               experience with Bootstrap styling.
             </li>
-            <li className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+            <li className="bg-clip-text text-transparent bg-white">
               Implemented React best practices for optimal performance, and
               built the Sky Goal Ambassador Admin Panel using the React
               framework and TailwindCSS for styling and designing components.
             </li>
-            <li className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+            <li className="bg-clip-text text-transparent bg-white">
               Built REST APIs in Node.js and MongoDB for seamless integration
               within the project.
             </li>
-            <li className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+            <li className="bg-clip-text text-transparent bg-white">
               I participated in identifying and fixing bugs in production.
               Additionally, I ensured code quality and consistency.
             </li>
-            <li className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+            <li className="bg-clip-text text-transparent bg-white">
               I developed my problem-solving skills, learned Firebase, and
               significantly enhanced my skills in developing the frontend part
               of websites through continuous learning and practical experience.
