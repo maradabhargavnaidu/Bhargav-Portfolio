@@ -25,48 +25,48 @@ const Navbar = () => {
           <span className="border-white border-2 rounded"></span>
           <span className="border-white border-2 rounded"></span>
         </div>
-        <ul className="list-none space-x-5 text-xl items-center font-varela hidden md:flex">
+        <ul className="list-none font-bold space-x-5 text-lg items-center font-varela hidden md:flex">
           <li>
             <a href="/#Home" className="text-white">
-              Home
+              HOME
             </a>
           </li>
           <li>
             <a href="/#About" className="text-white">
-              About
+              ABOUT
             </a>
           </li>
           <li>
             <a href="/#Skills" className="text-white">
-              Skills
+              SKILLS
             </a>
           </li>
           <li>
             <a href="/#projects" className="text-white">
-              Projects
+              PROJECTS
             </a>
           </li>
         </ul>
         <ul
           onClick={Handletoggle}
           className={
-            "md:hidden absolute mt-80 py-5 space-y-4 duration-1000 text-white flex flex-col font-varela w-[95%] text-center " +
+            "md:hidden absolute font-varela text-lg mt-80 py-5 space-y-4 duration-1000 text-white flex flex-col font-varela w-[95%] text-center " +
             (menuToggle
               ? "-translate-x-full bg-transparent"
               : "translate-x-0 bg-black")
           }
         >
           <li>
-            <a href="#Home">Home</a>
+            <a href="#Home">HOME</a>
           </li>
           <li>
-            <a href="#About">About</a>
+            <a href="#About">ABOUT</a>
           </li>
           <li>
-            <a href="#Skills">Skills</a>
+            <a href="#Skills">SKILLS</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">PROJECTS</a>
           </li>
         </ul>
       </nav>

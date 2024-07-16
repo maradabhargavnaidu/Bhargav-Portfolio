@@ -12,7 +12,7 @@ const About = () => {
         </p>
         <div className="space-y-5 py-8 text-left">
           {/* <p className="text-green-700">Who is Bhargav ?</p> */}
-          <p className="text-3xl text-left bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+          <p className="text-3xl text-left bg-clip-text text-transparent bg-white">
             I am a Full Stack Web Developer with experience as a Web Developer
             Intern at SkyGoal Innova Technologies Pvt Ltd. Currently, I am
             focused on mastering Data Structures and Algorithms, having solved
