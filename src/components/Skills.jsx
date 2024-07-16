@@ -12,7 +12,7 @@ const Skills = () => {
         </p> */}
 
         <div className="text-white py-10 text-2xl">
-          <div className="flex md:flex-row flex-col gap-10  justify-start items-start md:justify-between">
+          <div className="flex md:flex-row flex-wrap flex-col gap-10  justify-start items-start md:justify-between">
             {/* Languages */}
             <div className="flex flex-col items-start space-y-10">
               <p className="bg-clip-text text-transparent bg-gradient-to-b from-yellow-200 to-yellow-500 font-semibold text-3xl">
