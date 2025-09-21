@@ -23,7 +23,7 @@ const Header = () => {
         <span className="text-white">React, Node.js, Express, and MongoDB</span>{" "}
         to deliver scalable and efficient solutions.
       </p>
-      <div className="flex gap-7 py-16 text-md font-semibold">
+      <div className="flex gap-7 flex-wrap py-16 text-md font-semibold">
         <a
           href="https://github.com/maradabhargavnaidu"
           target="_blank"

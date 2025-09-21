@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="p-4">
-      <p className="text-purple-700 text-3xl">Projects</p>
+      <p className="text-purple-500 font-semibold text-3xl">Projects</p>
       <br />
       <div>
         <div className="text-white flex items-center gap-5">
